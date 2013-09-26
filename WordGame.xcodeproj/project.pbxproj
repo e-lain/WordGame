@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C16FD02417F4B0D200529100 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16FD02317F4B0D200529100 /* UIKit.framework */; };
+		C16FD02617F4B0D200529100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16FD02517F4B0D200529100 /* Foundation.framework */; };
+		C16FD02817F4B0D200529100 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16FD02717F4B0D200529100 /* CoreGraphics.framework */; };
+		C16FD02E17F4B0D200529100 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C16FD02C17F4B0D200529100 /* InfoPlist.strings */; };
+		C16FD03017F4B0D200529100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C16FD02F17F4B0D200529100 /* main.m */; };
+		C16FD03417F4B0D200529100 /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C16FD03317F4B0D200529100 /* CardGameAppDelegate.m */; };
+		C16FD03617F4B0D200529100 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FD03517F4B0D200529100 /* Default.png */; };
+		C16FD03817F4B0D200529100 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FD03717F4B0D200529100 /* Default@2x.png */; };
+		C16FD03A17F4B0D200529100 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FD03917F4B0D200529100 /* Default-568h@2x.png */; };
+		C16FD03D17F4B0D200529100 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16FD03B17F4B0D200529100 /* MainStoryboard.storyboard */; };
+		C16FD04017F4B0D200529100 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16FD03F17F4B0D200529100 /* CardGameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C16FD02017F4B0D200529100 /* WordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16FD02317F4B0D200529100 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C16FD02517F4B0D200529100 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C16FD02717F4B0D200529100 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C16FD02B17F4B0D200529100 /* WordGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordGame-Info.plist"; sourceTree = "<group>"; };
+		C16FD02D17F4B0D200529100 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C16FD02F17F4B0D200529100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C16FD03117F4B0D200529100 /* WordGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordGame-Prefix.pch"; sourceTree = "<group>"; };
+		C16FD03217F4B0D200529100 /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
+		C16FD03317F4B0D200529100 /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
+		C16FD03517F4B0D200529100 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C16FD03717F4B0D200529100 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C16FD03917F4B0D200529100 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C16FD03C17F4B0D200529100 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C16FD03E17F4B0D200529100 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		C16FD03F17F4B0D200529100 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C16FD01D17F4B0D200529100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16FD02417F4B0D200529100 /* UIKit.framework in Frameworks */,
+				C16FD02617F4B0D200529100 /* Foundation.framework in Frameworks */,
+				C16FD02817F4B0D200529100 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C16FD01717F4B0D200529100 = {
+			isa = PBXGroup;
+			children = (
+				C16FD02917F4B0D200529100 /* WordGame */,
+				C16FD02217F4B0D200529100 /* Frameworks */,
+				C16FD02117F4B0D200529100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C16FD02117F4B0D200529100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16FD02017F4B0D200529100 /* WordGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C16FD02217F4B0D200529100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C16FD02317F4B0D200529100 /* UIKit.framework */,
+				C16FD02517F4B0D200529100 /* Foundation.framework */,
+				C16FD02717F4B0D200529100 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C16FD02917F4B0D200529100 /* WordGame */ = {
+			isa = PBXGroup;
+			children = (
+				C16FD03217F4B0D200529100 /* CardGameAppDelegate.h */,
+				C16FD03317F4B0D200529100 /* CardGameAppDelegate.m */,
+				C16FD03B17F4B0D200529100 /* MainStoryboard.storyboard */,
+				C16FD03E17F4B0D200529100 /* CardGameViewController.h */,
+				C16FD03F17F4B0D200529100 /* CardGameViewController.m */,
+				C16FD02A17F4B0D200529100 /* Supporting Files */,
+			);
+			path = WordGame;
+			sourceTree = "<group>";
+		};
+		C16FD02A17F4B0D200529100 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16FD02B17F4B0D200529100 /* WordGame-Info.plist */,
+				C16FD02C17F4B0D200529100 /* InfoPlist.strings */,
+				C16FD02F17F4B0D200529100 /* main.m */,
+				C16FD03117F4B0D200529100 /* WordGame-Prefix.pch */,
+				C16FD03517F4B0D200529100 /* Default.png */,
+				C16FD03717F4B0D200529100 /* Default@2x.png */,
+				C16FD03917F4B0D200529100 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C16FD01F17F4B0D200529100 /* WordGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16FD04317F4B0D200529100 /* Build configuration list for PBXNativeTarget "WordGame" */;
+			buildPhases = (
+				C16FD01C17F4B0D200529100 /* Sources */,
+				C16FD01D17F4B0D200529100 /* Frameworks */,
+				C16FD01E17F4B0D200529100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordGame;
+			productName = WordGame;
+			productReference = C16FD02017F4B0D200529100 /* WordGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C16FD01817F4B0D200529100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CardGame;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = block7;
+			};
+			buildConfigurationList = C16FD01B17F4B0D200529100 /* Build configuration list for PBXProject "WordGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C16FD01717F4B0D200529100;
+			productRefGroup = C16FD02117F4B0D200529100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C16FD01F17F4B0D200529100 /* WordGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16FD01E17F4B0D200529100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16FD02E17F4B0D200529100 /* InfoPlist.strings in Resources */,
+				C16FD03617F4B0D200529100 /* Default.png in Resources */,
+				C16FD03817F4B0D200529100 /* Default@2x.png in Resources */,
+				C16FD03A17F4B0D200529100 /* Default-568h@2x.png in Resources */,
+				C16FD03D17F4B0D200529100 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C16FD01C17F4B0D200529100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16FD03017F4B0D200529100 /* main.m in Sources */,
+				C16FD03417F4B0D200529100 /* CardGameAppDelegate.m in Sources */,
+				C16FD04017F4B0D200529100 /* CardGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C16FD02C17F4B0D200529100 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16FD02D17F4B0D200529100 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C16FD03B17F4B0D200529100 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16FD03C17F4B0D200529100 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C16FD04117F4B0D200529100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C16FD04217F4B0D200529100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C16FD04417F4B0D200529100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordGame/WordGame-Prefix.pch";
+				INFOPLIST_FILE = "WordGame/WordGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C16FD04517F4B0D200529100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordGame/WordGame-Prefix.pch";
+				INFOPLIST_FILE = "WordGame/WordGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C16FD01B17F4B0D200529100 /* Build configuration list for PBXProject "WordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16FD04117F4B0D200529100 /* Debug */,
+				C16FD04217F4B0D200529100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16FD04317F4B0D200529100 /* Build configuration list for PBXNativeTarget "WordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16FD04417F4B0D200529100 /* Debug */,
+				C16FD04517F4B0D200529100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C16FD01817F4B0D200529100 /* Project object */;
+}

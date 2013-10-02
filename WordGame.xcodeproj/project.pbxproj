@@ -18,6 +18,7 @@
 		C16FD03A17F4B0D200529100 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FD03917F4B0D200529100 /* Default-568h@2x.png */; };
 		C16FD03D17F4B0D200529100 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16FD03B17F4B0D200529100 /* MainStoryboard.storyboard */; };
 		C16FD04017F4B0D200529100 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16FD03F17F4B0D200529100 /* CardGameViewController.m */; };
+		C1C4FB4517F5F893007D9CC9 /* CardGameViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C4FB4417F5F893007D9CC9 /* CardGameViewControllerTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		C16FD03C17F4B0D200529100 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C16FD03E17F4B0D200529100 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		C16FD03F17F4B0D200529100 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		C1C4FB4317F5F893007D9CC9 /* CardGameViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameViewControllerTwo.h; sourceTree = "<group>"; };
+		C1C4FB4417F5F893007D9CC9 /* CardGameViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameViewControllerTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		C16FD02917F4B0D200529100 /* WordGame */ = {
 			isa = PBXGroup;
 			children = (
+				C1C4FB4317F5F893007D9CC9 /* CardGameViewControllerTwo.h */,
+				C1C4FB4417F5F893007D9CC9 /* CardGameViewControllerTwo.m */,
 				C16FD03217F4B0D200529100 /* CardGameAppDelegate.h */,
 				C16FD03317F4B0D200529100 /* CardGameAppDelegate.m */,
 				C16FD03B17F4B0D200529100 /* MainStoryboard.storyboard */,
@@ -177,6 +182,7 @@
 				C16FD03017F4B0D200529100 /* main.m in Sources */,
 				C16FD03417F4B0D200529100 /* CardGameAppDelegate.m in Sources */,
 				C16FD04017F4B0D200529100 /* CardGameViewController.m in Sources */,
+				C1C4FB4517F5F893007D9CC9 /* CardGameViewControllerTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				C16FD04517F4B0D200529100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
